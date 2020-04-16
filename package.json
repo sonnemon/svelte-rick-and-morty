@@ -1,13 +1,14 @@
 {
-  "name": "animegram",
+  "name": "svelte-rick-and-morty",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple app made with Svelte",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack-dev-server --open --mode development"
   },
-  "author": "",
+  "author": "Carlos H. Mitma <carlosh.mitma@gmail.com>",
+  "repository": "https://github.com/sonnemon/svelte-rick-and-morty",
   "license": "ISC",
   "dependencies": {
     "graphql-request": "^1.8.2",

@@ -69,7 +69,7 @@
         </a>
       </div>
       <div class="header-nav">
-        <!-- <ul>
+        <ul>
           <li>
             <i class="fas fa-heart" />
             {$likeCount === 0 ? '' : $likeCount}
@@ -77,7 +77,7 @@
           <li>
             <i class="fas fa-user-alt" />
           </li>
-        </ul> -->
+        </ul>
       </div>
     </div>
   </div>
