@@ -1,12 +1,16 @@
 # APP
 
 Simple project made with [Svelte](https://svelte.dev).
-
+Live [Here](https://sonnemon-svelte.netlify.app/)
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
 
 ## Get started
+Clone project
+```bash
+git clone https://github.com/sonnemon/svelte-rick-and-morty.git
+```
 
-Install the dependencies...
+install the dependencies...
 
 ```bash
 cd svelte-rick-and-morty
