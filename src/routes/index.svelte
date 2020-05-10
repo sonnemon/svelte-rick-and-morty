@@ -3,9 +3,8 @@
     const API_RM = 'https://rickandmortyapi.com/api';
     const userRequest = await this.fetch(`${API_RM}/character/${query.userId || 1}`);
     const user = await userRequest.json()
-    let filter = user.name.split(" ");
-    filter = filter[0].toLowerCase();
-    const characterRequest = await this.fetch(`${API_RM}/character?name=${filter}`)
+    const randomPage = Math.floor(Math.random() * 25) + 1;
+    const characterRequest = await this.fetch(`${API_RM}/character?page=${randomPage}`)
     const characters = await characterRequest.json()
   
     const speciesRequest = await this.fetch(`${API_RM}/character?species=${user.species}`);
