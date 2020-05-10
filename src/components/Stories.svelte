@@ -79,7 +79,7 @@
             </a>
           </div>
           <h2>
-            <a href={`?userId=${similar.id}`}>
+            <a rel="prefetch" href={`?userId=${similar.id}`}>
               {similar.name}
               <span>{similar.species}</span>
             </a>

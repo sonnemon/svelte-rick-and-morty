@@ -185,7 +185,7 @@
             class="fas fa-heart"
             class:active-like={isLike}
             on:click={handleLike} />
-          <a href={`/?userId=${character.id}`}>
+          <a rel="prefetch" href={`/?userId=${character.id}`}>
             <i class="fas fa-paper-plane" />
           </a>
 

@@ -4,25 +4,24 @@
   "description": "Simple app made with Svelte",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
-    "dev": "webpack-dev-server --open --mode development"
+    "dev": "sapper dev",
+    "build": "sapper build",
+    "export": "sapper export",
+    "start": "node __saper__/build"
   },
   "author": "Carlos H. Mitma <carlosh.mitma@gmail.com>",
   "repository": "https://github.com/sonnemon/svelte-rick-and-morty",
   "license": "ISC",
   "dependencies": {
+    "compression": "^1.7.4",
     "graphql-request": "^1.8.2",
-    "svelte": "^3.20.1"
+    "polka": "^0.5.2",
+    "sirv": "^0.4.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/polyfill": "^7.8.7",
-    "@babel/preset-env": "^7.9.5",
-    "babel-loader": "^8.1.0",
-    "html-webpack-plugin": "^4.2.0",
+    "sapper": "^0.27.12",
+    "svelte": "^3.20.1",
     "svelte-loader": "^2.13.6",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "webpack": "^4.42.1"
   }
 }
